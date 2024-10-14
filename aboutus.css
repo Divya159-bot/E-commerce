@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar {
+    height: 60px;
+    background-color:#e2d8df;
+    color: white;
+    display: flex;
+    
+     
+    
+
+}
+.nav-logo {
+    height: 60px;
+    width: 340px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.logo{
+    background-image: url("logoss.jpeg");
+    background-color: cover;
+    height: 100%;
+    width: 340px;
+    display: flex;
+}
+.home{
+    margin-left: 400px;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+.p{
+    margin-left: 7px;
+    margin-top: 15px;
+}
+.a{
+    margin-top: 15px;
+    margin-left: 7px;
+}
+.s{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+ .co{
+      margin-top: 15px;
+      margin-left: 8px;
+ } 
+
+.cu{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.history, .values, .contact-info {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.history h3, .values h3, .contact-info h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.history p, .values p, .contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer0 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.footer1 {
+    margin: 20px 0;
+}
+
+.footer1 p {
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons a {
+    color: antiquewhite;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    color: gray;
+}
+
+.footer-column a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
